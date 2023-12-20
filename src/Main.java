@@ -35,6 +35,7 @@ public class Main {
 
         }
         System.out.println(Arrays.toString(nhanVienFullTimes));
+
         System.out.println("nhập số nhân viên partTime");
         int m = scanner.nextInt();
         NhanVienPartTime[] nhanVienPartTimes = new NhanVienPartTime[m];
@@ -57,6 +58,7 @@ public class Main {
             nhanVienPartTimes[i].setTimWords(scanner.nextDouble());
 
         }
+        System.out.println(Arrays.toString(nhanVienPartTimes));
         System.out.println("Menu");
         System.out.println("1. Tính lương trung bình nhân viên công ty");
         System.out.println("2. Tính lương trung bình nhân viên fulltime ");
